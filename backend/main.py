@@ -25,7 +25,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
 
-    allow_origins=["*"],
+    allow_origins=["https://house-price-prediction-nine-mocha.vercel.app"],
 
     allow_credentials=True,
 
